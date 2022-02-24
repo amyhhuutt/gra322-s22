@@ -1,0 +1,111 @@
+.container{
+    width: 100%;
+}
+
+* {
+    font-family: Poppins;
+    background-color: #F3F3EC;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    color: #DFB640;
+    font-weight: bold; 
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+h2{
+    color: #DFB640;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+    padding: 3rem;
+}
+
+h3{
+    color: #DFB640;
+    margin-left: 3rem;
+}
+
+p {
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+header {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 1rem 0;
+}
+
+.overview {
+    background-color: var(--gray);
+    color: white;
+    padding: 4rem 0;
+}
+
+figure {
+    margin-top: 2rem;
+}
+
+figure img {
+    margin-bottom: 1rem;
+}
+
+figcaption {
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.sample {
+    padding: 5rem 0;
+}
+
+footer {
+    background-color: var(--gray-light);
+    padding: 1.5rem 0;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 300px) {
+    .two-column {
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.map{
+    display: flex;
+}
+
+.description{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.two-column{
+    display: grid;
+    grid-gap: 1rem;
+}
