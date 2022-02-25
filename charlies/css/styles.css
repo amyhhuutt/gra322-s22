@@ -4,12 +4,12 @@
 
 * {
     font-family: Poppins;
-    background-color: #F3F3EC;
 }
 
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
+    background-color: #F3F3EC;
 }
 
 h1{
@@ -17,6 +17,11 @@ h1{
     font-weight: bold; 
     font-size: 40px;
     letter-spacing: 1px;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    position: absolute;
+    top: 50%;
+    left: -3rem;
 }
 
 h2{
@@ -38,12 +43,14 @@ p {
     letter-spacing: 1px;
     line-height: 1.5;
     margin-bottom: 1rem;
+    margin-left: 3rem
 }
 
 header {
     margin-left: 3rem;
     margin-right: 3rem;
     padding: 1rem 0;
+    position: relative;
 }
 
 .overview {
@@ -70,14 +77,6 @@ figcaption {
     padding: 5rem 0;
 }
 
-footer {
-    background-color: var(--gray-light);
-    padding: 1.5rem 0;
-}
-
-footer p {
-    margin-bottom: 0;
-}
 
 @media screen and (min-width: 300px) {
     .two-column {
@@ -89,6 +88,7 @@ footer p {
 
 .map{
     display: flex;
+    margin-left: 3rem;
 }
 
 .description{
@@ -98,6 +98,7 @@ footer p {
 
 ul{
     list-style: none;
+    margin-left: .5rem
 }
 
 .section{
@@ -108,4 +109,8 @@ ul{
 .two-column{
     display: grid;
     grid-gap: 1rem;
+}
+
+.facebook{
+    padding: 3rem;
 }
