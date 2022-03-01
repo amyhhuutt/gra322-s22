@@ -59,6 +59,8 @@ header {
     padding: 4rem 0;
 }
 
+
+
 .sample {
     padding: 5rem 0;
 }
@@ -73,7 +75,7 @@ header {
 .description{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-left: -3rem;
+    margin-left: -5rem;
 }
 
 ul{
@@ -141,9 +143,7 @@ ul{
 .food{
     margin-top: 2rem;
 }
-.charlie{
-    margin-left: 2rem;
-}
+
 
 @media screen and (min-width: 500px) {
     .two-column {
@@ -154,7 +154,6 @@ ul{
     }
     .hero-name{
         font-size: 60px;
-        top: 24rem;
     }
     h2{
         font-size: 60px;
