@@ -59,20 +59,6 @@ header {
     padding: 4rem 0;
 }
 
-figure {
-    margin-top: 2rem;
-}
-
-figure img {
-    margin-bottom: 1rem;
-}
-
-figcaption {
-    font-size: 13px;
-    font-style: italic;
-    letter-spacing: 1px;
-}
-
 .sample {
     padding: 5rem 0;
 }
@@ -87,7 +73,7 @@ figcaption {
 .description{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-left: -5rem;
+    margin-left: -3rem;
 }
 
 ul{
@@ -155,7 +141,9 @@ ul{
 .food{
     margin-top: 2rem;
 }
-
+.charlie{
+    margin-left: 2rem;
+}
 
 @media screen and (min-width: 500px) {
     .two-column {
@@ -165,7 +153,8 @@ ul{
         font-size: 20px;
     }
     .hero-name{
-        font-size: 80px;
+        font-size: 60px;
+        top: 24rem;
     }
     h2{
         font-size: 60px;
