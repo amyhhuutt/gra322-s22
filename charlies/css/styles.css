@@ -110,6 +110,13 @@ ul{
     margin-left: 4.7rem;
 }
 
+.hero-name{
+    top: 18.25rem;
+}
+
+.menu-title{
+    top: 36.25rem;
+}
 
 .first-column{
     line-height: 2.5rem;
@@ -125,6 +132,29 @@ ul{
     bottom: 8rem;
 }
 
+.location-heading{
+    top: 6.5rem;
+}
+
+.charlies-end{
+    top: 166.5rem;
+}
+
+.endcharlies{
+    margin-top: 12rem;
+}
+.menu{
+    margin-top: 5rem;
+}
+.hot{
+    margin-top: 2rem;
+}
+.other{
+    margin-top: 2rem;
+}
+.food{
+    margin-top: 2rem;
+}
 
 
 @media screen and (min-width: 500px) {
@@ -132,52 +162,20 @@ ul{
         display: grid;
         grid-gap: 3rem;
         grid-template-columns: 1fr 1fr;
-        font-size: 25px;
+        font-size: 20px;
     }
     .hero-name{
-        top: 19.75rem;
-    }
-    
-    .menu-title{
-        top: 40.5rem;
-    }
-    .hero-name{
-        font-size: 65px;
+        font-size: 60px;
     }
     h2{
-        font-size: 65px;
+        font-size: 60px;
     }
     .description{
-        font-size: 23px;
+        font-size: 18px;
     }
     h3{
-        font-size: 29px;
+        font-size: 24px;
         margin-bottom: 2rem;
     }
     p{
-        font-size: 25px;
-    }
-    .location-heading{
-        top: 8rem;
-    }
-    
-    .charlies-end{
-        top: 175.5rem;
-    }
-    
-    .endcharlies{
-        margin-top: 12rem;
-    }
-    .menu{
-        margin-top: 5rem;
-    }
-    .hot{
-        margin-top: 2rem;
-    }
-    .other{
-        margin-top: 2rem;
-    }
-    .food{
-        margin-top: 2rem;
-    }
-}
+        font-size: 20px;
