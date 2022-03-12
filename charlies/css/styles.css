@@ -19,8 +19,7 @@ h1{
     transform: rotate(-90deg);
     transform-origin: top left;
     position: absolute;
-    top: 63%;
-    left: -5rem;
+    margin-top: 2rem;
 }
 
 h2{
@@ -68,15 +67,11 @@ header {
 
 .map{
     display: flex;
-    margin-left: 5rem;
     bottom: 5rem;
+    margin-left: 5.15rem;
 }
 
-.description{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: -5rem;
-}
+
 
 ul{
     list-style: none;
@@ -174,4 +169,53 @@ ul{
     .food{
         margin-top: 2rem;
     }
-    
+}
+
+@media screen and (min-width: 1280px){
+    .hero-name{
+        font-size: 90px;
+        top: 27rem;
+        left: -6rem
+    }
+    .charlie{
+        width: 100%;
+        margin-left: 2rem;
+        padding-right: 3rem;
+        padding-top: 2rem;
+    }
+    .menu-title{
+        font-size: 90px;
+        top: 86.5rem;
+    }
+    .two-column{
+        padding: 2rem
+    }
+    .description{
+        margin-left: -3rem;
+        padding-top: 1rem;
+    }
+    .location-heading{
+        font-size: 90px;
+        top: 13rem;
+    }
+    .charlies-end{
+        font-size: 90px;
+        top: 197.5rem;
+    }
+    p {
+        margin-left: 7rem;
+    }
+    .map{
+        margin-left: 7rem;
+    }
+   .facebook{
+       margin-left: 6.5rem;
+   }
+   .containerer {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px;
+    grid-gap: 20px;
+  }
+}
+
