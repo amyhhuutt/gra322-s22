@@ -13,7 +13,7 @@ body{
 }
 
 h1{
-    color: #DFB640;
+    color: #0D3879;
     font-weight: bold; 
     letter-spacing: 1px;
     transform: rotate(-90deg);
@@ -23,7 +23,7 @@ h1{
 }
 
 h2{
-    color: #DFB640;
+    color: #0D3879;
     font-weight: bold; 
     letter-spacing: 1px;
     transform: rotate(-90deg);
@@ -34,7 +34,7 @@ h2{
 }
 
 h3{
-    color: #DFB640;
+    color: #0D3879;
     margin-left: 3rem;
 }
 
@@ -52,11 +52,6 @@ header {
     position: relative;
 }
 
-.overview {
-    background-color: var(--gray);
-    color: white;
-    padding: 4rem 0;
-}
 
 
 
@@ -179,43 +174,61 @@ ul{
     }
     .charlie{
         width: 100%;
+        height: 55rem;
         margin-left: 2rem;
-        padding-right: 3rem;
+        padding-right: 5rem;
         padding-top: 2rem;
+
     }
     .menu-title{
         font-size: 90px;
-        top: 86.5rem;
+        top: 75rem;
+        margin-left: .75rem;
     }
     .two-column{
         padding: 2rem
     }
     .description{
-        margin-left: -3rem;
-        padding-top: 1rem;
+        margin-left: -5rem;
+        padding-top: 3rem;
     }
     .location-heading{
         font-size: 90px;
-        top: 13rem;
+        top: 13.5rem;
+        margin-left: .75rem;
     }
     .charlies-end{
         font-size: 90px;
-        top: 197.5rem;
+        top: 189.5rem;
+        margin-left: .75rem;
     }
     p {
         margin-left: 7rem;
     }
     .map{
-        margin-left: 7rem;
+        margin-left: 55rem;
+        margin-top: -10.75rem;
+        width: 100%
     }
    .facebook{
        margin-left: 6.5rem;
    }
-   .containerer {
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 100px;
-    grid-gap: 20px;
-  }
+   .endsocial{
+       margin-top: 18rem;
+   }
+   .charlies-end{
+       padding-left: 6rem;
+   }
+   .facebook{
+       margin-left: 54rem;
+       margin-top: -8.5rem;
+   }
+ 
+
 }
 
+@media screen and (min-width: 810px){
+
+
+    
+}
