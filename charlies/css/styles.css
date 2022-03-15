@@ -164,6 +164,9 @@ ul{
     .food{
         margin-top: 2rem;
     }
+    .map{
+        margin-left: 2rem;
+    }
 }
 
 @media screen and (min-width: 1280px){
