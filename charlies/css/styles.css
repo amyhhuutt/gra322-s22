@@ -228,7 +228,33 @@ ul{
 }
 
 @media screen and (min-width: 810px){
-
-
-    
+    .hero-name{
+        margin-left: -6rem;
+        margin-top: 4.5rem;
+        font-size: 75px;
+    }
+    .description{
+        margin-left: -5rem;
+        margin-top: 2rem;
+    }
+    .menu-title{
+        margin-top: 16rem;
+        font-size: 75px;
+    }
+    .charlies-end{
+        margin-top: 9rem;
+    }
+    .location-heading{
+        font-size: 75px;
+        margin-top: 11.5rem;
+    }
+    .charlies-end{
+        font-size: 75px;
+        margin-top: 1.5rem;
+    }
+    .map{
+        margin-left: 44rem;
+        margin-top: -11rem;
+        width: 100%
+    }
 }
