@@ -11,17 +11,32 @@ body{
     font-weight: 300;
     background-color: #F3F3EC;
 }
+header{
+    position: relative;
+    top: 0;
+}
 
 h1{
     color: #0D3879;
     font-weight: bold; 
     letter-spacing: 1px;
     transform: rotate(-90deg);
-    transform-origin: top left;
     position: absolute;
-    margin-top: 2rem;
+    transform-origin: left;
+    left: 2.5rem;
+    font-size: clamp(45px, 8vw, 95px);
+    top: 25rem;
 }
 
+.charlie{
+    object-fit: cover;
+    width: 100%;
+    padding-left: 6rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 50rem;
+}
 h2{
     color: #0D3879;
     font-weight: bold; 
@@ -30,9 +45,15 @@ h2{
     position: absolute;
     transform-origin: left;
     left: 2.5rem;
-    margin-top: 8rem;
+    font-size: clamp(45px, 8vw, 95px);
 }
-
+.menu{
+    position: relative;
+    top: 3rem;
+}
+.menu-title{
+    top: 7rem;
+}
 h3{
     color: #0D3879;
     margin-left: 3rem;
@@ -45,19 +66,6 @@ p {
     margin-left: 5rem
 }
 
-header {
-    margin-left: 5rem;
-    margin-right: 3rem;
-    padding: 1rem 0;
-    position: relative;
-}
-
-
-
-
-.sample {
-    padding: 5rem 0;
-}
 
 
 .map{
@@ -88,14 +96,6 @@ ul{
     margin-left: 4.7rem;
 }
 
-.hero-name{
-    top: 18.25rem;
-}
-
-.menu-title{
-    top: 70rem;
-}
-
 .first-column{
     line-height: 2.5rem;
 }
@@ -104,174 +104,34 @@ ul{
     line-height: 2.5rem;
 }
 
-
-@media screen and (min-width: 500px) {
-    .two-column {
-        display: grid;
-        grid-gap: 3rem;
-        grid-template-columns: 1fr 1fr;
-        font-size: 20px;
-    }
-    .hero-name{
-        font-size: 200px;
-    }
-    h2{
-        font-size: 60px;
-    }
-    .description{
-        font-size: 18px;
-    }
-    h3{
-        font-size: 24px;
-        margin-bottom: 2rem;
-    }
-    p{
-        font-size: 20px;
-    }
-    .hero-name{
-        top: 18.25rem;
-    }
-    
-    .menu-title{
-        top: 53rem;
-    }
-    .Location{
-        top: 5rem;
-        position:relative;
-        bottom: 8rem;
-    }
-    
-    .location-heading{
-        top: 6.5rem;
-    }
-    
-    .charlies-end{
-        top: 166.5rem;
-    }
-    
-    .endcharlies{
-        margin-top: 12rem;
-    }
-    .menu{
-        margin-top: 5rem;
-    }
-    .hot{
-        margin-top: 2rem;
-    }
-    .other{
-        margin-top: 2rem;
-    }
-    .food{
-        margin-top: 2rem;
-    }
-    .map{
-        margin-left: 2rem;
-    }
+.two-column {
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
 }
 
-@media screen and (min-width: 1280px){
-    .hero-name{
-        font-size: 90px;
-        top: 27rem;
-        left: 1rem;
-    }
-    .charlie{
-        width: 100%;
-        height: 55rem;
-        margin-left: 2rem;
-        padding-right: 5rem;
-        padding-top: 2rem;
-
-    }
-    .menu-title{
-        font-size: 90px;
-        top: 57rem;
-        margin-left: .75rem;
-    }
-    .two-column{
-        padding: 2rem
-    }
-    .description{
-        margin-left: -5rem;
-        padding-top: 3rem;
-    }
-    .location-heading{
-        font-size: 90px;
-        top: 13.5rem;
-        margin-left: .75rem;
-    }
-    .charlies-end{
-        font-size: 90px;
-        top: 189.5rem;
-        margin-left: .75rem;
-    }
-    p {
-        margin-left: 7rem;
-    }
-    .map{
-        margin-left: 55rem;
-        margin-top: -10rem;
-        padding-left: 12rem;
-    }
-
-   .facebook{
-       padding-left: 12.5rem;
-   }
-   .endsocial{
-       margin-top: 18rem;
-   }
-   .charlies-end{
-       padding-left: 6rem;
-   }
-   .facebook{
-       margin-left: 54rem;
-       margin-top: -8.5rem;
-   }
- 
-
+.description{
+    font-size: 18px;
+}
+h3{
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+p{
+    font-size: 20px;
 }
 
-@media screen and (min-width: 810px){
-    .hero-name{
-        margin-left: -6rem;
-        margin-top: 6rem;
-        font-size: 75px;
-    }
-    .description{
-        margin-left: -5rem;
-        margin-top: 2rem;
-    }
-    .menu-title{
-        margin-top: 21rem;
-        font-size: 75px;
-    }
-    .charlies-end{
-        margin-top: 9rem;
-    }
-    .location-heading{
-        font-size: 75px;
-        margin-top: 11.5rem;
-    }
-    .charlies-end{
-        font-size: 75px;
-        margin-top: 5rem;
-    }
-    .map{
-        margin-top: -11rem;
-        width: 100%
-    }
-    .charlie{
-        width: 100%;
-        height: 50rem;
-        padding-top: 2rem;
 
-    }
-    .facebook{
-        margin-left: 44rem;
-        margin-top: -9rem;
-    }
-
-    .map{
-        margin-left: 45rem;
-    }
+.hot{
+    margin-top: 2rem;
+}
+.other{
+    margin-top: 2rem;
+}
+.food{
+    margin-top: 2rem;
+}
+.map{
+    margin-left: 2rem;
 }
