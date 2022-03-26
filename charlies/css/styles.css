@@ -11,9 +11,9 @@ body{
     font-weight: 300;
     background-color: #F3F3EC;
 }
-header{
+
+.test{
     position: relative;
-    top: 0;
 }
 
 h1{
@@ -24,14 +24,14 @@ h1{
     position: absolute;
     transform-origin: left;
     left: 2.5rem;
-    font-size: clamp(45px, 8vw, 95px);
-    top: 25rem;
+    font-size: 80px;
+    top: 21rem;
 }
 
 .charlie{
     object-fit: cover;
     width: 100%;
-    padding-left: 6rem;
+    padding-left: 5rem;
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -45,14 +45,14 @@ h2{
     position: absolute;
     transform-origin: left;
     left: 2.5rem;
-    font-size: clamp(45px, 8vw, 95px);
+    font-size: 80px;
 }
 .menu{
     position: relative;
     top: 3rem;
 }
 .menu-title{
-    top: 7rem;
+    top: 11.5rem;
 }
 h3{
     color: #0D3879;
@@ -70,10 +70,9 @@ p {
 
 .map{
     display: flex;
-    bottom: 5rem;
     margin-left: 5.15rem;
+    width: 500px;
 }
-
 
 
 ul{
@@ -94,6 +93,7 @@ ul{
 
 .facebook{
     margin-left: 4.7rem;
+    margin-top: 4.5rem;
 }
 
 .first-column{
@@ -122,7 +122,6 @@ p{
     font-size: 20px;
 }
 
-
 .hot{
     margin-top: 2rem;
 }
@@ -132,6 +131,29 @@ p{
 .food{
     margin-top: 2rem;
 }
-.map{
-    margin-left: 2rem;
+
+
+@media screen and (min-width: 800px) {
+    .location {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.location{
+    position: relative;
+    top: 4rem
+}
+
+.location-heading{
+    top: 19rem;
+}
+
+.charlies-end{
+    font-size: 43px;
+    margin-top: 11.25rem;
+
+}
+footer{
+    margin-top: 12rem;
 }
