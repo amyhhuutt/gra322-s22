@@ -155,5 +155,12 @@ p{
 
 }
 footer{
-    margin-top: 12rem;
+    margin-top: 12rem;  
+
+}
+
+@media screen and (max-width:500px) {
+    .charlie{
+        padding-right: 2rem;
+    }
 }
