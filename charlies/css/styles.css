@@ -71,7 +71,6 @@ p {
 .map{
     display: flex;
     margin-left: 5.15rem;
-    width: 500px;
 }
 
 
@@ -157,10 +156,4 @@ p{
 footer{
     margin-top: 12rem;  
 
-}
-
-@media screen and (max-width:500px) {
-    .charlie{
-        padding-right: 2rem;
-    }
 }
