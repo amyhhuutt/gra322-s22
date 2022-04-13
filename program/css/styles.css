@@ -4,7 +4,6 @@ html {
 
 body {
     font-family: 'mulish', sans-serif;
-    font-weight: 300;
 }
 
 h1 {
@@ -13,7 +12,7 @@ h1 {
     letter-spacing: 1px;
     display: flex;
     font-size: 2rem;
-    margin-left: -1.5rem;
+    line-height: 1.2;
 }
 
 a, a:hover, a:focus, a:active {
@@ -25,19 +24,35 @@ ul{
     list-style: none;
 }
 
+.home{
+    display: flex;
+    padding: 1rem;
+}
+
 .links {
     display: flex;
   }
   
   .work {
     margin-left: auto;
+    padding: 1rem;
   }
   
   .links li {
     padding: 1rem;
   }
   
-  
+  .links a{
+      line-height: 1.2;
+  }
+  .creator{
+      display: none;
+  }
+
+
+  .first-about{
+      padding-bottom: 1rem;
+  }
 
 img {
     max-width: 100%;
@@ -47,21 +62,13 @@ img {
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 1fr;
+    padding: 1rem;
   }
+.description{
+    font-size: 16px;
+}
 
-  .big-image{
-      padding-left: 1rem;
-  }
 
-  .small-image-one{
-      margin-left: 1rem;
-      padding-right: 1rem;
-  }
-  
-  .small-image-two{
-      padding-right: 1rem;
-  }
-  
   @media screen and (min-width: 800px) {
     .intro {
       grid-template-columns: 1fr 1fr 1fr;
@@ -94,7 +101,9 @@ img {
       height: 100%;
       width: 100%;
     }
-    
+    .creator{
+        display: inline;
+    }
   }
 
 h2 {
@@ -102,37 +111,50 @@ h2 {
     font-weight: 300;
     letter-spacing: 2px;
     margin-top: 3rem;
-    margin-left: 1rem;
 }
 
 .me{
     object-fit: cover;
-    height: 75%;
-    width: 75%;
-    margin-top: 1rem;
-    margin-left: 1rem;
 }
 
-.creator{
+
+.about{
+    padding: 1rem;
+}
+
+.second-about{
+    padding-bottom: 1rem;
+}
+
+.creator-desc{
     inline-size: 290px;
     overflow-wrap: break-word;
-    margin-left: 1rem;
     margin-top: 1rem;
 }
 
+
 .book-desc{
-    align-items: center;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr;
+    grid-column: 1 / 2;
 }
 
+.start-looking{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
 
 .work{
     align-items: center;
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 1fr;
+}
+
+.work-one{
+    grid-column: 2 / 2;
+}
+
+.work-two{
+    grid-column: 2 / 2;
 }
 
 @media screen and (min-width: 800px) {
@@ -156,24 +178,78 @@ h2 {
       width: 100%;
     }
     
-    .work-three {
-      grid-column: 1 / 2;
-      grid-row: 2 / 3;
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-    }
+
 }
 
+h3{
+    font-size: 25px;
+}
 
 footer {
     background-color: #303030;
+    padding: 1rem;
 }
 
+.contact{
+    margin-left: -2.5rem;
+}
 .footer{
     color: white;
 }
 
 footer p {
     margin-bottom: 0;
+}
+
+
+
+
+
+.title-work{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 0rem;
+    margin-left: 1rem;
+}
+
+.projects{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 3;
+    margin-left: 1.75rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+
+
+
+
+
+
+.quote{
+    font-style: italic;
+    font-weight: 200;
+    margin-left: 2rem;
+    inline-size: 290px;
+    overflow-wrap: break-word;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.deets{
+    padding-top: 2rem;
+    margin-left: 1rem;
+}
+
+.desc{
+    margin-left: 1rem;
+    padding-top: 2rem;
+}
+
+.final{
+    height: 40rem;
+    padding-top: 4rem;
 }
