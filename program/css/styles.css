@@ -11,7 +11,7 @@ h1 {
     font-weight: 700;
     letter-spacing: 1px;
     display: flex;
-    font-size: 2rem;
+    font-size: 32px;
     line-height: 1.2;
 }
 
@@ -27,6 +27,7 @@ ul{
 .home{
     display: flex;
     padding: 1rem;
+    justify-content: space-between;
 }
 
 .links {
@@ -35,7 +36,6 @@ ul{
   
   .work {
     margin-left: auto;
-    padding: 1rem;
   }
   
   .links li {
@@ -50,77 +50,39 @@ ul{
   }
 
 
-  .first-about{
-      padding-bottom: 1rem;
-  }
-
 img {
     max-width: 100%;
   }
+
+
   .intro {
-    align-items: center;
+    align-items: start;
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
+    padding-bottom: 5rem;
   }
+
+
 .description{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
-  @media screen and (min-width: 800px) {
-    .intro {
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 25vh 25vh;
-    }
-    
-    .intro-text {
-      grid-column: 3 / 4;
-      grid-row: 1 / 3;
-    }
-    .big-image {
-      grid-column: 2 / 3;
-      grid-row: 1 / 3;
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-    }
-    .small-image-one {
-      grid-column: 1 / 2;
-      grid-row: 1 / 2;
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-    }
-    
-    .small-image-two {
-      grid-column: 1 / 2;
-      grid-row: 2 / 3;
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-    }
-    .creator{
-        display: inline;
-    }
-  }
+
+
 
 h2 {
-    font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    margin-top: 3rem;
-}
-
-.me{
-    object-fit: cover;
-}
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}    
 
 
-.about{
-    padding: 1rem;
-}
+
+
+
 
 .second-about{
     padding-bottom: 1rem;
@@ -133,21 +95,9 @@ h2 {
 }
 
 
-.book-desc{
-    grid-column: 1 / 2;
-}
 
-.start-looking{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
 
-.work{
-    align-items: center;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr;
-}
+
 
 .work-one{
     grid-column: 2 / 2;
@@ -157,29 +107,9 @@ h2 {
     grid-column: 2 / 2;
 }
 
-@media screen and (min-width: 800px) {
-    .work{
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 25vh 25vh;
-    }
-    
-    .work-one {
-      grid-column: 2 / 3;
-      grid-row: 1 / 3;
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-    }
-    .work-two {
-      grid-column: 1 / 2;
-      grid-row: 1 / 2;
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-    }
-    
 
-}
+
+
 
 h3{
     font-size: 25px;
@@ -205,23 +135,80 @@ footer p {
 
 
 
+.about{
+    padding: 1rem;
+}
+
+.first-about{
+    padding-bottom: 2rem;
+    font-size: 22px;
+}
+
+.learn-more{
+    border: 1px #707070 solid;
+    display: block;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    max-width: 190px;
+    text-transform: uppercase;
+    font-size: 16px;
+}    
+
+.me{
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+.work-bottom{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.book-title{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin-left: 1rem;
+    inline-size: 190px;
+    overflow-wrap: break-word;
+    align-items: start;
+}
+
+.start-looking{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border: 1px #707070 solid;
+    display: block;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    max-width: 190px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 2rem;
+}
+
 .title-work{
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-top: 0rem;
     margin-left: 1rem;
+    padding-top: 1rem;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-bottom: 2rem;
 }
+
+
 
 .projects{
     font-size: 20px;
     font-weight: 300;
     line-height: 3;
     margin-left: 1.75rem;
-    padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-bottom: 13rem;
 }
-
 
 
 
@@ -252,4 +239,314 @@ footer p {
 .final{
     height: 40rem;
     padding-top: 4rem;
+    
+}
+
+
+.process{
+    font-size: 25px;
+}
+
+.final{
+    width:100%;
+}
+
+.me{
+    width: 100%;
+}
+
+
+.about-page{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+.quote{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 200;
+    margin-left: 2rem;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+    .work{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 25vh 25vh;
+    }
+    
+    .work-one {
+        grid-column: 3 / 3;
+        grid-row: 1 / 3;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+    .work-two {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .book-title{
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .learn-more{
+        border: 1px #707070 solid;
+        display: block;
+        padding: 1rem;
+        border-radius: 2rem;
+        text-align: center;
+        max-width: 220px;
+        text-transform: uppercase;
+        font-size: 20px;
+    }        
+    
+    
+    
+}
+
+@media screen and (min-width: 800px) {
+    
+    
+    .project-info-two{
+        grid-template-columns: 2fr 1fr 1fr;
+        display: grid;
+        gap: 1rem;
+        max-width: 1400px;
+    }
+    
+  
+    .me{
+        padding-top: 1rem;
+        padding-right: 1rem;
+        
+    }
+    
+    
+    
+    .work-bottom{
+        align-items: start;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    
+    .start-looking{
+        border: 1px #707070 solid;
+        display: block;
+        padding: 1rem;
+        border-radius: 2rem;
+        text-align: center;
+        max-width: 220px;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    .work-bottom{
+        padding-left: 1rem;
+        padding-bottom: 5rem;
+    }
+    
+    .first-about{
+        padding-bottom: 2rem;
+        font-size: 28px;
+    }
+    
+    .book{
+        padding-bottom: 1rem;
+        font-size: 28px;
+    }
+    
+    .book-desc{
+        grid-column: 1 / 2;
+        font-size: 20px;
+        padding-bottom: 2rem;
+    }
+
+    .recipe-desc{
+        font-style: italic;
+        margin-left: 1rem;
+        inline-size: 1000px;
+        overflow-wrap: break-word;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 800px) {
+  .intro {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25vh 25vh;
+  }
+  
+  .intro-text {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+  }
+  .big-image {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .small-image-one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .small-image-two {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .creator{
+      display: inline;
+  }
+
+  
+  .about{
+      padding-top: 6rem;
+      grid-template-columns: 1fr 2fr;
+      padding-bottom: 10rem;
+      display: grid;
+      gap: 1rem;
+      margin: 0 auto;
+  }
+  
+  .about-page{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      padding-left: 1rem;
+      padding-bottom: 5rem;
+      padding-top: 2rem;
+  }
+  
+  .quote{
+      font-size: 22px;
+      font-style: italic;
+      font-weight: 200;
+      margin-left: 2rem;
+      inline-size: 300px;
+      overflow-wrap: break-word;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+  }
+
+  .creator-desc{
+    inline-size: 300px;  
+    overflow-wrap: break-word;
+    margin-top: 1rem;
+    font-size: 22px;
+
+  }
+    
+
+  .work-bottom{
+      align-items: center;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .title-work{
+    font-size: 28px;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 0rem;
+    margin-left: 1rem;
+}
+
+
+ .projects{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 3;
+    margin-left: 4rem;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding-bottom: 7rem;
+}
+
+
+}    
+
+
+.tns-outer{
+   margin-left: 15rem;
+   margin-bottom: 3rem;
+   margin-top: -1.5rem;
+}
+
+.process{
+    margin-top: 7rem;
+    margin-left: .5rem;
+}
+.first-about-section{
+    margin-left: 1rem;
+}
+  
+
+
+/* MOBILE WORK CSS */
+
+.project-recipe{
+    font-size: 28px;
+    margin-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.recipe-info{
+    font-size: 20px;
+    margin-left: -17rem;
+    padding-bottom: 1rem;
+    margin-top: .45rem;
+}
+
+.recipe-desc-title{
+    font-size: 20px;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+    margin-top: .45rem;
+    margin-right: 1rem;
+}
+
+.recipe-desc{
+    font-style: italic;
+    margin-left: 1rem;
+    inline-size: 850px;
+    overflow-wrap: break-word;
+}
+
+/* DESKTOP WORK CSS */
+
+@media screen and (min-width: 800px) {
+
 }
