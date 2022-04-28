@@ -32,6 +32,7 @@ ul{
 
 .links {
     display: flex;
+    font-size: 22px;
   }
   
   .work {
@@ -44,7 +45,21 @@ ul{
   
   .links a{
       line-height: 1.2;
+      display: block;
+      text-decoration: none;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 1rem;
   }
+
+  .links a:hover{
+      border-bottom: 4px solid gray;
+  }
+
+
+
+
+
+
   .creator{
       display: none;
   }
@@ -66,7 +81,7 @@ img {
 
 
 .description{
-    font-size: 18px;
+    font-size: 26px;
 }
 
 
@@ -88,14 +103,17 @@ h2 {
     padding-bottom: 1rem;
 }
 
-.creator-desc{
-    inline-size: 290px;
+
+
+
+.creator-desc-one{
+    inline-size: 400px;  
     overflow-wrap: break-word;
     margin-top: 1rem;
+    font-size: 22px;
+    padding-bottom: 2rem;
+    
 }
-
-
-
 
 
 
@@ -155,6 +173,15 @@ footer p {
     font-size: 16px;
 }    
 
+.learn-more:hover{
+
+    background-color: #303030;
+    transition: 0.7s;
+    color: white;
+
+}
+
+
 .me{
     padding-top: 2.5rem;
     padding-bottom: 5rem;
@@ -170,7 +197,7 @@ footer p {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     margin-left: 1rem;
-    inline-size: 190px;
+    inline-size: 400px;
     overflow-wrap: break-word;
     align-items: start;
 }
@@ -187,6 +214,14 @@ footer p {
     text-transform: uppercase;
     font-size: 16px;
     margin-top: 2rem;
+}
+
+
+
+.start-looking:hover{
+    background-color: #303030;
+    transition: 0.7s;
+    color: white;
 }
 
 .title-work{
@@ -288,14 +323,12 @@ footer p {
     .work-one {
         grid-column: 3 / 3;
         grid-row: 1 / 3;
-        object-fit: cover;
         height: 100%;
         width: 100%;
     }
     .work-two {
         grid-column: 2 / 3;
-        grid-row: 1 / 2;
-        object-fit: cover;
+        grid-row: 1 / 3;
         height: 100%;
         width: 100%;
     }
@@ -353,11 +386,14 @@ footer p {
         padding: 1rem;
         border-radius: 2rem;
         text-align: center;
-        max-width: 220px;
+        max-width: 300px;
         text-transform: uppercase;
         font-size: 20px;
     }
-    
+
+
+
+
     .work-bottom{
         padding-left: 1rem;
         padding-bottom: 5rem;
@@ -369,14 +405,13 @@ footer p {
     }
     
     .book{
-        padding-bottom: 1rem;
+        padding-bottom: 3rem;
         font-size: 28px;
     }
     
     .book-desc{
         grid-column: 1 / 2;
         font-size: 20px;
-        padding-bottom: 2rem;
     }
 
     .recipe-desc{
@@ -394,7 +429,7 @@ footer p {
 @media screen and (min-width: 800px) {
   .intro {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 25vh 25vh;
+    grid-template-rows: 28vh 35vh;
   }
   
   .intro-text {
@@ -429,9 +464,9 @@ footer p {
 
   
   .about{
-      padding-top: 6rem;
+      padding-top: 4rem;
       grid-template-columns: 1fr 2fr;
-      padding-bottom: 10rem;
+      padding-bottom: 5rem;
       display: grid;
       gap: 1rem;
       margin: 0 auto;
@@ -457,7 +492,7 @@ footer p {
   }
 
   .creator-desc{
-    inline-size: 300px;  
+    inline-size: 400px;  
     overflow-wrap: break-word;
     margin-top: 1rem;
     font-size: 22px;
@@ -466,10 +501,9 @@ footer p {
     
 
   .work-bottom{
-      align-items: center;
       display: grid;
       gap: 1rem;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
   }
 
   .title-work{
