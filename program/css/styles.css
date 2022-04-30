@@ -52,10 +52,18 @@ ul{
   }
 
   .links a:hover{
-      border-bottom: 4px solid gray;
+      border-bottom: 3px solid gray;
   }
 
 
+.index-table{
+    display: flex;
+    flex-direction: column;
+}
+
+.index-footer{
+    margin-top: auto;
+}
 
 
 
