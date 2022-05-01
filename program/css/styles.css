@@ -267,7 +267,7 @@ footer p {
     font-weight: 300;
     line-height: 3;
     margin-left: 1.75rem;
-    padding-bottom: 13rem;
+    padding-bottom: 6rem;
 }
 
 
@@ -535,7 +535,7 @@ footer p {
   }
 
   .creator-desc{
-    inline-size: 400px;  
+    inline-size: 350px;  
     overflow-wrap: break-word;
     margin-top: 1rem;
     font-size: 22px;
@@ -627,7 +627,7 @@ footer p {
 .recipe-desc{
     font-style: italic;
     margin-left: 1rem;
-    inline-size: 850px;
+    inline-size: 320px;
     overflow-wrap: break-word;
 }
 
