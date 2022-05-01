@@ -32,7 +32,7 @@ ul{
 
 .links {
     display: flex;
-    font-size: 22px;
+    font-size: 18px;
   }
   
   .work {
@@ -118,7 +118,7 @@ h2 {
     inline-size: 400px;  
     overflow-wrap: break-word;
     margin-top: 1rem;
-    font-size: 22px;
+    font-size: 18px;
     padding-bottom: 2rem;
     
 }
@@ -156,6 +156,23 @@ footer {
 footer p {
     margin-bottom: 0;
 }
+
+
+
+
+
+.symbol{
+    padding-top: 4rem;
+}
+
+
+.homegrown{
+    padding-top: 4rem;
+    height: 60rem;
+}
+
+
+
 
 
 
@@ -280,7 +297,6 @@ footer p {
 }
 
 .final{
-    height: 40rem;
     padding-top: 4rem;
     
 }
@@ -318,6 +334,10 @@ footer p {
 }
 
 
+.book-desc{
+    padding-top: 2rem;
+    font-size: 18px;
+}
 
 
 
@@ -507,6 +527,15 @@ footer p {
 
   }
     
+
+
+.instruction{
+    font-size: 20px;
+    padding-bottom: 1rem;
+    margin-top: .45rem;
+    font-style: normal;
+}
+
 
   .work-bottom{
       display: grid;

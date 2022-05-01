@@ -88,11 +88,12 @@ ul{
     display: grid;
     grid-gap: 1rem;
     margin-left: 2rem;
+    font-size: 16px;
 }
 
 .facebook{
     margin-left: 4.7rem;
-    margin-top: 4.5rem;
+    margin-top: 4rem;
 }
 
 .first-column{
@@ -103,19 +104,13 @@ ul{
     line-height: 2.5rem;
 }
 
-.two-column {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: 1fr;
-    font-size: 20px;
-}
 
 .description{
     font-size: 18px;
 }
 h3{
     font-size: 24px;
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
 }
 p{
     font-size: 20px;
@@ -135,18 +130,26 @@ p{
 @media screen and (min-width: 800px) {
     .location {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
+
     .two-column {
-        grid-gap: 3rem;
-        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 20px;
+    }
+
+
+    .food-section{
+        margin-left: -2rem;
+        margin-top: -1.9rem;
     }
 }
 
 .location{
     position: relative;
-    top: 4rem
+    top: 4rem;
 }
 
 .location-heading{
