@@ -89,7 +89,7 @@ img {
 
 
 .description{
-    font-size: 26px;
+    font-size: 16px;
 }
 
 
@@ -115,7 +115,7 @@ h2 {
 
 
 .creator-desc-one{
-    inline-size: 400px;  
+    inline-size: 350px;  
     overflow-wrap: break-word;
     margin-top: 1rem;
     font-size: 18px;
@@ -336,7 +336,11 @@ footer p {
 
 .book-desc{
     padding-top: 2rem;
+    inline-size: 350px;  
+    overflow-wrap: break-word;
+    margin-top: 1rem;
     font-size: 18px;
+
 }
 
 
@@ -376,6 +380,17 @@ footer p {
         text-transform: uppercase;
         font-size: 20px;
     }        
+
+
+
+    .creator-desc-one{
+        inline-size: 400px;  
+        overflow-wrap: break-word;
+        margin-top: 1rem;
+        font-size: 18px;
+        padding-bottom: 2rem;
+    
+}
     
     
     
@@ -615,6 +630,8 @@ footer p {
     inline-size: 850px;
     overflow-wrap: break-word;
 }
+
+
 
 /* DESKTOP WORK CSS */
 
