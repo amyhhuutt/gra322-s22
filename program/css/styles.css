@@ -390,6 +390,7 @@ footer p {
         font-size: 18px;
         padding-bottom: 2rem;
     
+    
 }
     
     
@@ -460,12 +461,28 @@ footer p {
     .recipe-desc{
         font-style: italic;
         margin-left: 1rem;
-        inline-size: 1000px;
+        inline-size: 800px;
         overflow-wrap: break-word;
     }
 
+    .description{
+        font-size: 28px;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .recipe-desc{
+        font-style: italic;
+        margin-left: 1rem;
+        inline-size: 320px;
+        overflow-wrap: break-word;
+    }
 
 }
+
 
 
 
@@ -582,6 +599,8 @@ footer p {
 }
 
 
+
+
 }    
 
 
@@ -624,12 +643,9 @@ footer p {
     margin-right: 1rem;
 }
 
-.recipe-desc{
-    font-style: italic;
-    margin-left: 1rem;
-    inline-size: 320px;
-    overflow-wrap: break-word;
-}
+
+
+
 
 
 
